@@ -1,6 +1,7 @@
 {
   "name": "aurene-database",
   "version": "0.1.0",
+  "repository": "git://github.com:mbacalan/aurene-database.git",
   "main": "./dist/index.js",
   "types": "./dist/types.js",
   "source": "./src/index.ts",
@@ -16,5 +17,8 @@
   },
   "dependencies": {
     "mongoose": "^6.2.9"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
