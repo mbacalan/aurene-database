@@ -1,8 +1,9 @@
 name: aurene-database
 
 on:
-  release:
-    types: [created]
+  push:
+    tags:
+      '*'
 
 jobs:
   build:
