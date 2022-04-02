@@ -1,6 +1,6 @@
 {
   "name": "@mbacalan/aurene-database",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": "git://github.com:mbacalan/aurene-database.git",
   "main": "./dist/index.js",
   "types": "./dist/types.js",
